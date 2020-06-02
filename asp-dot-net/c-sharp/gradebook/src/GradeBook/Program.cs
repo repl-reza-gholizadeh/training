@@ -11,7 +11,8 @@ namespace GradeBook {
             foreach (double number in grades) {
                 result += number;
             }
-            Console.WriteLine (result);
+            result /= grades.Count;
+            Console.WriteLine ($"The average is {result:N1}");
             if (args.Length > 0) {
                 //Console.WriteLine("Hello " + args[0] + "!");
                 Console.WriteLine ($"Hello {args[0]}!");
