@@ -5,22 +5,12 @@ namespace GradeBook {
 
     class Program {
         static void Main (string[] args) {
-            var book = new Book ();
-            book.AddGrade (12.2);
-            List<double> grades = new List<double> () { 1.3, 44.3, 19, 22 };
-            grades.Add (1.3);
-            var result = 0.0;
-            foreach (double number in grades) {
-                result += number;
-            }
-            result /= grades.Count;
-            Console.WriteLine ($"The average is {result:N1}");
-            if (args.Length > 0) {
-                //Console.WriteLine("Hello " + args[0] + "!");
-                Console.WriteLine ($"Hello {args[0]}!");
-            } else {
-                Console.WriteLine ("Hello!");
-            }
+            var book = new Book ("someName");
+            book.AddGrade (22.2);
+            book.AddGrade (1.2);
+            book.AddGrade (522.2);
+            book.AddGrade (342.2);
+            book.ShowStatistics ();
         }
     }
 }
