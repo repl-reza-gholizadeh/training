@@ -3,14 +3,11 @@
 namespace GradeBook {
     class Program {
         static void Main (string[] args) {
-            double[] numbers = new double[3];
-            var someArray = new double[2] { 22, 1.2 };
-            numbers[0] = 1.2;
-            numbers[1] = 2.2;
-            numbers[2] = 3.3;
-            var result = numbers[0];
-            result += numbers[1];
-            result += numbers[2];
+            var numbers = new double[3] { 1.3, 44.3, 19 };
+            var result = 0.0;
+            foreach (double number in numbers) {
+                result += number;
+            }
             Console.WriteLine (result);
             if (args.Length > 0) {
                 //Console.WriteLine("Hello " + args[0] + "!");
