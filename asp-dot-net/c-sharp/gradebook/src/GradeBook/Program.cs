@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 
 namespace GradeBook {
+
     class Program {
         static void Main (string[] args) {
-            var numbers = new double[] { 1.3, 44.3, 19 };
+            var book = new Book ();
             List<double> grades = new List<double> () { 1.3, 44.3, 19, 22 };
             grades.Add (1.3);
             var result = 0.0;
