@@ -6,6 +6,7 @@ namespace GradeBook {
     class Program {
         static void Main (string[] args) {
             var book = new Book ();
+            book.AddGrade (12.2);
             List<double> grades = new List<double> () { 1.3, 44.3, 19, 22 };
             grades.Add (1.3);
             var result = 0.0;
