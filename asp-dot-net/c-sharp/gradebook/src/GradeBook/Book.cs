@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 namespace GradeBook {
         class Book {
-                List<double> grades;
+                private List<double> grades;
                 public Book () {
                         grades = new List<double> ();
                 }
