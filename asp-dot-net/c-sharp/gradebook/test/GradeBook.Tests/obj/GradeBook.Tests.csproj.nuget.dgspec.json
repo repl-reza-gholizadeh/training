@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\reza.gholizadeh\\Documents\\GitHub\\training\\asp-dot-net\\c-sharp\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\reza.gholizadeh\\Documents\\GitHub\\training\\asp-dot-net\\c-sharp\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\reza.gholizadeh\\Documents\\GitHub\\training\\asp-dot-net\\c-sharp\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectName": "GradeBook.Tests",
+        "projectPath": "C:\\Users\\reza.gholizadeh\\Documents\\GitHub\\training\\asp-dot-net\\c-sharp\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "packagesPath": "C:\\Users\\reza.gholizadeh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reza.gholizadeh\\Documents\\GitHub\\training\\asp-dot-net\\c-sharp\\gradebook\\test\\GradeBook.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\reza.gholizadeh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://replicon.myget.org/F/developer/auth/a7b7b938-8da7-4ea3-8251-ae6097563bd3/api/v2": {},
+          "https://replicon.myget.org/F/replicon/auth/a7b7b938-8da7-4ea3-8251-ae6097563bd3/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
